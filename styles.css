@@ -4,13 +4,26 @@
 	background-color:gray;
 	border-radius:10px;
 	margin:auto;
+
 }
 #container  #photo-heading {
 	text-align:center;
 	color:whitesmoke;
 }
 
+.imgcontainer{
+display:grid;
+	grid-template-columns:repeat(3,1fr);
+	gap:10px;
+	justify-items:center;
+	
+	
+}
+
 .img{
 padding:5px;
 	border-radius:10px
+	widht:100%;
+	max-widht:200px;
+	height:auto;
 }
